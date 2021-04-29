@@ -5,8 +5,8 @@ A project on predicting whether it will rain tomorrow or not by using the Rainfa
 
 
 # Data Collection:
-Rainfall Prediction in Australia dataset from Kaggle
-
+Rainfall Prediction in Australia dataset from Kaggle: 
+https://www.kaggle.com/jsphyg/weather-dataset-rattle-package
 
 # Data Preprocessing:
 1. Missing Values Handled by Random Sample imputation to maintain the variance
