@@ -9,21 +9,22 @@ Rainfall Prediction in Australia dataset from Kaggle
 
 
 # Data Preprocessing:
-> Missing Values Handled by Random Sample imputation to maintain the variance
-> Categorical Values like location, wind direction are handled by using Target guided encoding
-> Outliers are handled using IQR and boxplot
-> Imbalanced Dataset was handled using SMOTE
+1. Missing Values Handled by Random Sample imputation to maintain the variance
+2. Categorical Values like location, wind direction are handled by using Target guided encoding
+3. Outliers are handled using IQR and boxplot
+4. Imbalanced Dataset was handled using SMOTE
+
 
 # Model Creation:
-> Different types of models were tried like  random forest, logistic regression, xgboost, support vector machines, knn, decision tree.
-> Out of these xgboost, random forest and support vector machines were top 3
-> he conclusion were made using classification metrics, accuracy score, roc-auc
+1. Different types of models were tried like  random forest, logistic regression, xgboost, support vector machines, knn, decision tree.
+2. Out of these xgboost, random forest and support vector machines were top 3
+3. The conclusion were made using classification metrics, accuracy score, roc-auc
 
 # How to run this app
-> install all the packages by using the following command
-> pip install -r requirements.txt
-> Now for the final step. Run the app
-> python rainy_app.py
+1. install all the packages by using the following command
+2. pip install -r requirements.txt
+3. Now for the final step. Run the app
+4. python rainy_app.py
 
 
 
